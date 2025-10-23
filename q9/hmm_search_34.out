@@ -1,0 +1,15 @@
+==== Job Configuration ====
+Job ID: 34
+Node: teach38
+Total CPUs allocated: 40
+Threads per hmmscan: 4
+Parallel jobs: 10
+Start time: Thu 23 Oct 2025 04:25:53 PM EDT
+
+==== Starting Resource Monitoring ====
+Monitoring processes started:
+  jobperf PID: 2436198
+  system monitor PID: 2436199
+  iostat PID: 2436200
+
+==== Starting HMMER Search ====

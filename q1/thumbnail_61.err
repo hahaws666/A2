@@ -1,0 +1,12 @@
+/var/spool/slurm/slurmd/job00061/slurm_script: not: command not found
+/var/spool/slurm/slurmd/job00061/slurm_script: not: command not found
+sh: line 1: /dev/tty: No such device or address
+sh: line 1: /dev/tty: No such device or address
+
+Computers / CPU cores / Max jobs to run
+1:local / 40 / 40
+
+Computer:jobs running/jobs completed/%of started jobs/Average seconds to complete
+local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s sh: line 1: /dev/tty: No such device or address
+sh: line 1: /dev/tty: No such device or address
+local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:5/0/100%/0.0s local:4/1/100%/1.0s local:4/1/100%/1.0s local:4/1/100%/1.0s local:3/2/100%/0.5s local:3/2/100%/0.5s local:3/2/100%/0.5s local:2/3/100%/0.3s local:2/3/100%/0.3s local:2/3/100%/0.3s local:1/4/100%/0.2s local:1/4/100%/0.2s local:1/4/100%/0.2s local:0/5/100%/0.2s local:0/5/100%/0.2s 

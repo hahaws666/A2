@@ -1,0 +1,15 @@
+Start parallel processing of image thumbnails...
+Using 40 CPU cores
+Processing time: Tue 14 Oct 2025 06:55:08 PM EDT
+done: Tue 14 Oct 2025 06:55:09 PM EDT
+total files: 10
+processed files: 5
+generated thumbnail examples:
+total 3
+drwxr-x--- 2 lcl_uotcscd71s1408 lcl_uotcscd71 4096 Oct 14 18:55 .
+drwxr-x--- 2 lcl_uotcscd71s1408 lcl_uotcscd71 4096 Oct 14 18:55 ..
+-rw-r----- 1 lcl_uotcscd71s1408 lcl_uotcscd71  423 Oct 14 18:55 thumb_blue_image.jpg
+-rw-r----- 1 lcl_uotcscd71s1408 lcl_uotcscd71  423 Oct 14 18:55 thumb_green_image.jpg
+-rw-r----- 1 lcl_uotcscd71s1408 lcl_uotcscd71  423 Oct 14 18:55 thumb_purple_image.jpg
+-rw-r----- 1 lcl_uotcscd71s1408 lcl_uotcscd71  423 Oct 14 18:55 thumb_red_image.jpg
+-rw-r----- 1 lcl_uotcscd71s1408 lcl_uotcscd71  423 Oct 14 18:55 thumb_yellow_image.jpg

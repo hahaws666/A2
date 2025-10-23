@@ -1,0 +1,7 @@
+==> Building HMM index...
+Working...    done.
+Pressed and indexed 24736 HMMs (24736 names and 24736 accessions).
+Models pressed into binary file:   /home/l/lcl_uotcscd71/lcl_uotcscd71s1408/hmmer-3.4/Pfam-A.hmm.h3m
+SSI index for binary model file:   /home/l/lcl_uotcscd71/lcl_uotcscd71s1408/hmmer-3.4/Pfam-A.hmm.h3i
+Profiles (MSV part) pressed into:  /home/l/lcl_uotcscd71/lcl_uotcscd71s1408/hmmer-3.4/Pfam-A.hmm.h3f
+Profiles (remainder) pressed into: /home/l/lcl_uotcscd71/lcl_uotcscd71s1408/hmmer-3.4/Pfam-A.hmm.h3p
