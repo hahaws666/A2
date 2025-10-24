@@ -55,56 +55,12 @@ g++ -O3 -std=c++17 -o MA MA.cpp
 sbatch MA_parameter_sweep.slurm
 ```
 
-**Features:**
-- Systematically varies N from 1 to 5
-- Tests all combinations of computation types and boundary handling
-- Total runs: 5 × 3 × 3 = 45 parameter combinations
-- Uses GNU parallel for efficient CPU utilization
-- Outputs results to `out/` directory
+
 
 ### 2. RAMdisk Optimized Script
 ```bash
 sbatch MA_ramdisk_optimized.slurm
 ```
 
-**Features:**
-- Same parameter sweep as above
-- Uses RAMdisk (`/dev/shm/`) for faster I/O during computation
-- Automatically recovers results to `out/` directory before job completion
-- Optimized for high-throughput scenarios
 
-## Output Format
-
-Each run produces output in the following format:
-```
-Number of data points (N): [N]
-Computation type: [computation_type]
-Boundary handling: [boundary_handling]
-Original data, MA5, MA10:
-[data_point] [ma5_value] [ma10_value]
-...
-```
-
-## Requirements
-
-- GCC compiler with C++17 support
-- GNU parallel module
-- SLURM job scheduler
-- Sufficient memory for RAMdisk operations (second script)
-
-## Performance Notes
-
-- Both scripts utilize all 40 available CPU cores
-- RAMdisk optimization provides faster I/O for large parameter sweeps
-- Jobs include performance monitoring and result statistics
-- Automatic error handling and status reporting
-
-## Job Monitoring
-
-After submission, monitor jobs with:
-```bash
-squeue -u $USER
-sacct -j [JOB_ID]
-```
-
-Results will be available in the `out/` directory after job completion.
+we are optimizing it with the ramdisk

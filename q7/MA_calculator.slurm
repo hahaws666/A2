@@ -9,17 +9,17 @@
 
 
 
-# 获取CPU核心数
+# get the number of CPU cores
 CPUS=$SLURM_CPUS_PER_TASK
 
-# 构建程序
+# build the program
 echo "==> Building MA program..."
 g++ -O3 -std=c++17 -o MA MA.cpp
 
-# 创建输出目录
+# create the output directory
 mkdir -p out
 
-# 定义参数组合
+# define the parameter combinations
 types=(forward backward centered)
 bounds=(restricted cyclic padding)
 n_values=(100 200 300 400 500)
@@ -28,7 +28,7 @@ echo "==> Starting MA calculations..."
 echo "Using $CPUS CPU cores"
 echo "Processing time: $(date)"
 
-# 生成所有参数组合
+# generate all parameter combinations
 {
   for n in "${n_values[@]}"; do
     for t in "${types[@]}"; do
